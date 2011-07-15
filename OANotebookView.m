@@ -31,7 +31,7 @@
     [path addClip];
     [self setBackgroundTexture];
     [self drawHorizonalBlueLines: ctx];
-    [self drawVerticalMarginLine: ctx];
+    [self drawVerticalMarginLine];
     [super drawRect:rect];
 }
 
@@ -69,7 +69,7 @@
     CGContextRestoreGState(ctx);
 }
 
-- (void) drawVerticalMarginLine: (CGContextRef) ctx{
+- (void) drawVerticalMarginLine{
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     CGFloat screenHeight = screenRect.size.height;    
     screenHeight -= 2;

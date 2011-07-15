@@ -16,6 +16,6 @@
 - (UIImage *) patternImageOfSize:(CGSize) size;
 - (void) setBackgroundTexture;
 - (void) drawHorizonalBlueLines: (CGContextRef) ctx;
-- (void) drawVerticalMarginLine: (CGContextRef) ctx;
+- (void) drawVerticalMarginLine;
 
 @end
