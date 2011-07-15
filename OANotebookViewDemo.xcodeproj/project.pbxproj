@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B234688B13CFE34100ACA4BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B234688A13CFE34100ACA4BF /* UIKit.framework */; };
+		B234688D13CFE34100ACA4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B234688C13CFE34100ACA4BF /* Foundation.framework */; };
+		B234688F13CFE34100ACA4BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B234688E13CFE34100ACA4BF /* CoreGraphics.framework */; };
+		B234689513CFE34100ACA4BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B234689313CFE34100ACA4BF /* InfoPlist.strings */; };
+		B234689713CFE34100ACA4BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B234689613CFE34100ACA4BF /* main.m */; };
+		B234689B13CFE34100ACA4BF /* OANotebookViewDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B234689A13CFE34100ACA4BF /* OANotebookViewDemoAppDelegate.m */; };
+		B234689E13CFE34100ACA4BF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B234689D13CFE34100ACA4BF /* MainViewController.m */; };
+		B23468A113CFE34100ACA4BF /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23468A013CFE34100ACA4BF /* FlipsideViewController.m */; };
+		B23468A413CFE34100ACA4BF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23468A213CFE34100ACA4BF /* MainViewController.xib */; };
+		B23468A713CFE34100ACA4BF /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23468A513CFE34100ACA4BF /* FlipsideViewController.xib */; };
+		B23468B013CFE35000ACA4BF /* OANotebookView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23468AE13CFE35000ACA4BF /* OANotebookView.m */; };
+		B23468B113CFE35000ACA4BF /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = B23468AF13CFE35000ACA4BF /* paper.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B234688613CFE34000ACA4BF /* OANotebookViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OANotebookViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B234688A13CFE34100ACA4BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B234688C13CFE34100ACA4BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B234688E13CFE34100ACA4BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B234689213CFE34100ACA4BF /* OANotebookViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OANotebookViewDemo-Info.plist"; sourceTree = "<group>"; };
+		B234689413CFE34100ACA4BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B234689613CFE34100ACA4BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B234689813CFE34100ACA4BF /* OANotebookViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OANotebookViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B234689913CFE34100ACA4BF /* OANotebookViewDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OANotebookViewDemoAppDelegate.h; sourceTree = "<group>"; };
+		B234689A13CFE34100ACA4BF /* OANotebookViewDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OANotebookViewDemoAppDelegate.m; sourceTree = "<group>"; };
+		B234689C13CFE34100ACA4BF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B234689D13CFE34100ACA4BF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B234689F13CFE34100ACA4BF /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B23468A013CFE34100ACA4BF /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		B23468A313CFE34100ACA4BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		B23468A613CFE34100ACA4BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		B23468AD13CFE35000ACA4BF /* OANotebookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OANotebookView.h; path = ../OANotebookView.h; sourceTree = "<group>"; };
+		B23468AE13CFE35000ACA4BF /* OANotebookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OANotebookView.m; path = ../OANotebookView.m; sourceTree = "<group>"; };
+		B23468AF13CFE35000ACA4BF /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper.png; path = ../paper.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B234688313CFE34000ACA4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B234688B13CFE34100ACA4BF /* UIKit.framework in Frameworks */,
+				B234688D13CFE34100ACA4BF /* Foundation.framework in Frameworks */,
+				B234688F13CFE34100ACA4BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B234687B13CFE34000ACA4BF = {
+			isa = PBXGroup;
+			children = (
+				B234689013CFE34100ACA4BF /* OANotebookViewDemo */,
+				B234688913CFE34000ACA4BF /* Frameworks */,
+				B234688713CFE34000ACA4BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B234688713CFE34000ACA4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B234688613CFE34000ACA4BF /* OANotebookViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B234688913CFE34000ACA4BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B234688A13CFE34100ACA4BF /* UIKit.framework */,
+				B234688C13CFE34100ACA4BF /* Foundation.framework */,
+				B234688E13CFE34100ACA4BF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B234689013CFE34100ACA4BF /* OANotebookViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B23468AD13CFE35000ACA4BF /* OANotebookView.h */,
+				B23468AE13CFE35000ACA4BF /* OANotebookView.m */,
+				B23468AF13CFE35000ACA4BF /* paper.png */,
+				B234689913CFE34100ACA4BF /* OANotebookViewDemoAppDelegate.h */,
+				B234689A13CFE34100ACA4BF /* OANotebookViewDemoAppDelegate.m */,
+				B234689C13CFE34100ACA4BF /* MainViewController.h */,
+				B234689D13CFE34100ACA4BF /* MainViewController.m */,
+				B234689F13CFE34100ACA4BF /* FlipsideViewController.h */,
+				B23468A013CFE34100ACA4BF /* FlipsideViewController.m */,
+				B23468A213CFE34100ACA4BF /* MainViewController.xib */,
+				B23468A513CFE34100ACA4BF /* FlipsideViewController.xib */,
+				B234689113CFE34100ACA4BF /* Supporting Files */,
+			);
+			path = OANotebookViewDemo;
+			sourceTree = "<group>";
+		};
+		B234689113CFE34100ACA4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B234689213CFE34100ACA4BF /* OANotebookViewDemo-Info.plist */,
+				B234689313CFE34100ACA4BF /* InfoPlist.strings */,
+				B234689613CFE34100ACA4BF /* main.m */,
+				B234689813CFE34100ACA4BF /* OANotebookViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B234688513CFE34000ACA4BF /* OANotebookViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23468AA13CFE34100ACA4BF /* Build configuration list for PBXNativeTarget "OANotebookViewDemo" */;
+			buildPhases = (
+				B234688213CFE34000ACA4BF /* Sources */,
+				B234688313CFE34000ACA4BF /* Frameworks */,
+				B234688413CFE34000ACA4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OANotebookViewDemo;
+			productName = OANotebookViewDemo;
+			productReference = B234688613CFE34000ACA4BF /* OANotebookViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B234687D13CFE34000ACA4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Obelisk Apps";
+			};
+			buildConfigurationList = B234688013CFE34000ACA4BF /* Build configuration list for PBXProject "OANotebookViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B234687B13CFE34000ACA4BF;
+			productRefGroup = B234688713CFE34000ACA4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B234688513CFE34000ACA4BF /* OANotebookViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B234688413CFE34000ACA4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B234689513CFE34100ACA4BF /* InfoPlist.strings in Resources */,
+				B23468A413CFE34100ACA4BF /* MainViewController.xib in Resources */,
+				B23468A713CFE34100ACA4BF /* FlipsideViewController.xib in Resources */,
+				B23468B113CFE35000ACA4BF /* paper.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B234688213CFE34000ACA4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B234689713CFE34100ACA4BF /* main.m in Sources */,
+				B234689B13CFE34100ACA4BF /* OANotebookViewDemoAppDelegate.m in Sources */,
+				B234689E13CFE34100ACA4BF /* MainViewController.m in Sources */,
+				B23468A113CFE34100ACA4BF /* FlipsideViewController.m in Sources */,
+				B23468B013CFE35000ACA4BF /* OANotebookView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B234689313CFE34100ACA4BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B234689413CFE34100ACA4BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B23468A213CFE34100ACA4BF /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23468A313CFE34100ACA4BF /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		B23468A513CFE34100ACA4BF /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23468A613CFE34100ACA4BF /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23468A813CFE34100ACA4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B23468A913CFE34100ACA4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23468AB13CFE34100ACA4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OANotebookViewDemo/OANotebookViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "OANotebookViewDemo/OANotebookViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B23468AC13CFE34100ACA4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OANotebookViewDemo/OANotebookViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "OANotebookViewDemo/OANotebookViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B234688013CFE34000ACA4BF /* Build configuration list for PBXProject "OANotebookViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23468A813CFE34100ACA4BF /* Debug */,
+				B23468A913CFE34100ACA4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23468AA13CFE34100ACA4BF /* Build configuration list for PBXNativeTarget "OANotebookViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23468AB13CFE34100ACA4BF /* Debug */,
+				B23468AC13CFE34100ACA4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B234687D13CFE34000ACA4BF /* Project object */;
+}
