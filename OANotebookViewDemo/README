@@ -1,0 +1,9 @@
+OANotebookViewDemo
+
+Drawing with Quartz
+---------------------
+
+This purpose of this app is to demostrate the use of Quartz to do some drawing in the drawRect method, which is fast and usually will be very memory safe.
+
+OANotebookView is a subclass of UIView with the drawRect method overloaded to create the look and feel of a notebook sheet of paper, with horizontal 
+blue lines and two paralels red lines.
